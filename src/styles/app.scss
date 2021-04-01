@@ -23,6 +23,12 @@ body {
 .library-active {
   margin-left: 30%;
 }
+.active-body {
+  margin-left: 25%;
+  @media (max-width: 870px) {
+    margin-left: 35%;
+  }
+}
 
 @import "./player";
 @import "./song";

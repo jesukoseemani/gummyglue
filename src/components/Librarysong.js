@@ -1,10 +1,14 @@
 
 
-const Librarysong = ({Song, Setcurrentsong, audioRef, Songs, Setsongs, Isplaying, Currentsong}) => {
+const Librarysong = ({Song, Setcurrentsong, audioRef, Songs, Setsongs, Isplaying}) => {
+  
 
   const changeSongHandler = async () => {
+    
     // const song = {Song}
+    // Setisplaying(true)
   await  Setcurrentsong(Song) 
+ 
   Isplaying ? audioRef.current.play() : audioRef.current.pause()
 
  const newSong = Songs.map(S => {

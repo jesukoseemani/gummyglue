@@ -55,7 +55,7 @@ function App() {
   const [Activevolume, Setactivevolume] = useState(false);
   
   return (
-    <div className="App">
+    <div className={`App ${Librarystate ? "active-body" : ""}`}>
       <Nav
       Librarystate={Librarystate}
       Setlibrarystate={Setlibrarystate} />
@@ -85,6 +85,7 @@ function App() {
       Setcurrentsong={Setcurrentsong}
       audioRef={audioRef}
       Isplaying={Isplaying} 
+      Setisplaying={Setisplaying}
       Currentsong={Currentsong}
       Setsongs={Setsongs}
       Librarystate={Librarystate}

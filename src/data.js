@@ -26,7 +26,7 @@ function chillHop() {
       cover:
         "https://chillhop.com/wp-content/uploads/2020/07/ff35dede32321a8aa0953809812941bcf8a6bd35-1024x1024.jpg",
       artist: "Swørn",
-      audio: "https://mp3.chillhop.com/serve.php/?mp3=9222",
+      audio: "https://music.audiomack.com/albums/kotathefriend/to-kill-a-sunrise/streaming/05-kota-selekt-haile-go-now-mix-5__1616123758.mp3?Expires=1616412891&Signature=hkaGn66SQ6MXq1PZm0ikfQAjwFoSGMEQJTGNSW93ff76ir036ba7WonU6y7Opg7D1LmcYsasrJ9~Dvx9nyIlXXR-Sy~K1yoFz976e4W8or7Q3UWuprvCq2YztaDXKhceSjpbF2qlyqnscEqKXMJEezzRFKuxk5klT8csW5TnMw8_&Key-Pair-Id=APKAIKAIRXBA2H7FXITA",
       color: ["#CD607D", "#c94043"],
       id: uuidv4(),
       active: false,
