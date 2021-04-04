@@ -11,7 +11,7 @@ const Librarysong = ({Song, Setcurrentsong, audioRef, Songs, Setsongs, Isplaying
  
   Isplaying ? audioRef.current.play() : audioRef.current.pause()
 
- const newSong = Songs.map(S => {
+  const newSong = Songs.map(S => {
   if(S.id === Song.id){
      return {
        ...S,
